@@ -1,0 +1,47 @@
+.layout {
+  min-height: 100vh;
+}
+
+.header {
+  background: #001529;
+}
+
+.title {
+  color: #fff !important;
+  margin: 16px 0 !important;
+  text-align: right !important;
+}
+
+.content {
+  padding: 50px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  text-align: right;
+  background: #f7f9fc;
+  border-radius: 16px;
+  padding: 36px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  max-width: 800px;
+  margin: 36px auto;
+}
+
+.accountInfoContainer,
+.buyGoldFormContainer,
+.purchaseHistoryContainer {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.accountInfoContainer:hover,
+.buyGoldFormContainer:hover,
+.purchaseHistoryContainer:hover {
+  transform: translateY(-4px);
+}
